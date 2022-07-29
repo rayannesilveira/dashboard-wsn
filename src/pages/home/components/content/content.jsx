@@ -50,12 +50,6 @@ class Content extends Component {
             </div>
           </div>
 
-
-          <div  className="row">
-            <br />
-          </div>
-
-
         </div>
 
       </StyleContent>
