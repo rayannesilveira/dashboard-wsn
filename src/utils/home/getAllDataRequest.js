@@ -1,5 +1,5 @@
 async function  getAllDataRequest(){
-  const allData = await fetch('http://localhost:3131/collected-data');
+  const allData = await fetch('http://35.203.64.238/collected-data');
 
   const [datas] = await Promise.all([allData]);
 
