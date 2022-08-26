@@ -26,7 +26,6 @@ const TableContent = () => {
         <table>
           <thead>
             <tr>
-              <th scope="col">Network</th>
               <th scope="col">Node</th>
               <th scope="col">Sensor</th>
               <th scope="col">Value</th>
@@ -37,9 +36,8 @@ const TableContent = () => {
           <tbody>
             {allData.map(dataSample => (
               <tr key={dataSample.id}>
-                <td>{dataSample.network}</td>
-                <td>{dataSample.node}</td>
-                <td>{dataSample.sensor}</td>
+                <td>{dataSample.nodeId}</td>
+                <td>{dataSample.typeDataId}</td>
                 <td>{dataSample.value}</td>
                 <td>{dataSample.created_at}</td>
               </tr>

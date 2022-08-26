@@ -1,5 +1,5 @@
 async function  getAllDataRequest(){
-  const allData = await fetch('https://62e34e4fb54fc209b8873346.mockapi.io/networks/dados');
+  const allData = await fetch('http://localhost:3131/collected-data');
 
   const [datas] = await Promise.all([allData]);
 
