@@ -4,7 +4,7 @@ import { CardChart } from "./cardChart";
 import { CardData } from "./cardData";
 import { CardLast } from "./cardLastReads";
 import { StyleContent } from './style';
-import {TableContent} from "./tableContent";
+import { TableContent } from "./tableContent";
 class Content extends Component {
 
 

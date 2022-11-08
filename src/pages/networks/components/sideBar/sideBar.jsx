@@ -12,8 +12,8 @@ class SideBar extends Component {
       <StyleSideBar>
         <div className="sideBar">
           <img src={img} alt="Logo LAPS" />
-          <MenuItem link="/home" name="Dashboard" icon="VscDashboard" color="#007ABF" isActive="isActive"/>
-          <MenuItem link="/network" name="Networks" icon="BiNetworkChart" color="#999999" />
+          <MenuItem link="/home" name="Dashboard" icon="VscDashboard" color="#999999"/>
+          <MenuItem link="/network" name="Networks" icon="BiNetworkChart"  color="#007ABF" isActive="isActive" />
           <MenuItem name="Charts" icon="IoIosStats" color="#999999" />
           <MenuItem name="Downloads" icon="FaFileDownload" color="#999999"/>
         </div>
