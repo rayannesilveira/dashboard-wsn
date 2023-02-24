@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from 'react';
-import { SideBar } from "./components/sideBar/sideBar";
+import { SideBar } from '../../components/sideBar/sideBar'
 import { Content } from "./components/content/content"
 import './style.css';
 
