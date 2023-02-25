@@ -21,24 +21,20 @@ class Content extends Component {
             <div className="analytics">
               <h2>Analytics</h2>
               <CardChart />
-
             </div>
           </div>
 
           <div className="row">
             <div className="card-node">
               <CardData title="Number of Sensors" subtitle="All active nodes" number="50" />
-
             </div>
 
             <div className="card-networks">
               <CardData title="Number of Networks" subtitle="All active networks" number="5" color="#6BF98A" />
-
             </div>
 
             <div className="card-sensors">
               <CardData title="Number of Nodes" subtitle="All active nodes" number="40" color="#6BF98A" />
-
             </div>
 
           </div>

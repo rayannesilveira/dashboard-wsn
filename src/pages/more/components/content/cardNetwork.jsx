@@ -32,7 +32,7 @@ class CardNetwork extends Component {
 						<p>{this.props.isActive}</p>
 					</div>
 					<div>
-						<a href={`${this.props.link}`}>See more</a>
+						<a href="/rede_uema/charts">See more</a>
 					</div>
 				</div>
 			</div>
