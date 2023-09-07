@@ -16,8 +16,7 @@ class CardNetwork extends Component {
 			<div className="cardData">
 				<div className="container">
 					<div className="title">
-							<h3>Collected data</h3>
-							<p>Since 10/07/2022</p>
+							<h3>Umidade</h3>
 					</div>
 					<div>
 						<GaugeChart id="gauge-chart" 
@@ -28,7 +27,7 @@ class CardNetwork extends Component {
 						/>
 					</div>
 					<div className="footer">
-						<p>86% reach</p>
+						
 					</div>
 				</div>
 

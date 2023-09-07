@@ -20,8 +20,8 @@ class CardThermometer extends Component {
 					</div>
 					<div className="temperature_chart">
             <Temperature 
-              value={20}
-              height={250}
+              value={50}
+              height={300}
             />
 					</div>
 				</div>

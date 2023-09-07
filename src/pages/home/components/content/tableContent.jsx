@@ -37,7 +37,7 @@ const TableContent = () => {
             {allData.map(dataSample => (
               <tr key={dataSample.id}>
                 <td>{dataSample.nodeId}</td>
-                <td>{dataSample.typeDataId}</td>
+                <td>{dataSample.typeDataName}</td>
                 <td>{dataSample.value}</td>
                 <td>{dataSample.created_at}</td>
               </tr>
